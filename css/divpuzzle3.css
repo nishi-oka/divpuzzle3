@@ -1,0 +1,89 @@
+@charset "utf-8";
+body{
+	margin: 0;
+}
+
+.container{
+	width: 400px;
+	height: 450px;
+	margin: 0 auto;
+	position:relative;
+}
+
+.red--box{
+	width: 400px;
+	height: 100px;
+	background: #ff0000;
+}
+
+.winered--boxes{
+	width:160px;
+	height:60px;
+	position: absolute;
+	top:20px;
+	right:20px;
+	overflow:hidden;
+	background-color: #ffffff;
+}
+
+.winered--box1{
+	width: 40px;
+	height: 40px;
+	background: #a9004b;
+	float: left;
+	margin: 10px;
+}
+.winered--box2{
+	width: 40px;
+	height: 40px;
+	background: #a9004b;
+	float: left;
+	margin: 10px 0;
+}
+.winered--box3{
+	width: 40px;
+	height: 40px;
+	background: #a9004b;
+	float: left;
+	margin: 10px;
+}
+
+.green--box{
+	width: 150px;
+	height: 250px;
+	background:#00ff51;
+	float:left
+}
+
+.brown--box{
+	width: 250px;
+	height: 250px;
+	background: #8c2727;
+	float:left;
+	position:relative;
+}
+
+.orange--boxes{
+	width:150px;
+	height:170px;
+	overflow:hidden;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}
+
+.orange--box{
+	width: 140px;
+	height: 40px;
+	background: #ff863f;
+	margin: 10px;
+	border: 5px solid #ffffff;
+}
+
+.yellow--box{
+	width:400px;
+	height:100px;
+	background: #ffd000;
+	position: absolute;
+	bottom: 0;
+}
