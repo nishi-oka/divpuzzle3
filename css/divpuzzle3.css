@@ -17,35 +17,21 @@ body{
 }
 
 .winered--boxes{
-	width:160px;
-	height:60px;
+	display: flex;
+	gap: 10px;
+	padding: 10px;
 	position: absolute;
 	top:20px;
 	right:20px;
 	overflow:hidden;
 	background-color: #ffffff;
+	padding: 10px;
 }
 
-.winered--box1{
+.winered--box{
 	width: 40px;
 	height: 40px;
 	background: #a9004b;
-	float: left;
-	margin: 10px;
-}
-.winered--box2{
-	width: 40px;
-	height: 40px;
-	background: #a9004b;
-	float: left;
-	margin: 10px 0;
-}
-.winered--box3{
-	width: 40px;
-	height: 40px;
-	background: #a9004b;
-	float: left;
-	margin: 10px;
 }
 
 .green--box{
