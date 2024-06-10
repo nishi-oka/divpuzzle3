@@ -50,8 +50,6 @@ body{
 }
 
 .orange--boxes{
-	width:150px;
-	height:170px;
 	overflow:hidden;
 	position: absolute;
 	top: 40px;
@@ -62,8 +60,11 @@ body{
 	width: 140px;
 	height: 40px;
 	background: #ff863f;
-	margin: 10px;
+	margin: 0 0 10px 0;
 	border: 5px solid #ffffff;
+}
+.orange--box:last-child{
+	margin-bottom: 0;
 }
 
 .yellow--box{
